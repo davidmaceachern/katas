@@ -37,7 +37,6 @@ Constraints:
 # Brute force
 # Time o(n*k)
 # Space o(1)
-# does not handle negative numbers
 class Solution(object):
     def rotate(self, nums, k):
         """
@@ -52,5 +51,5 @@ class Solution(object):
             for j in range(len(nums)):
                 nums[j], previous = previous, nums[j]
 
-##
+
             

@@ -22,7 +22,7 @@ def test_rotates_negative_numbers():
     solution = Solution()
     nums = [-1,-100,3,99]
     k = 2
-    expected = [3,99,-1,100] 
+    expected = [3,99,-1,-100] 
 
     solution.rotate(nums, k)
 
