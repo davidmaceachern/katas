@@ -1,0 +1,1 @@
+Should domain model file names be pluralized?
